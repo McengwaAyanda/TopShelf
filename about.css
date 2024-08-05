@@ -3,10 +3,8 @@ body {
     font-family: 'Mistic terror';                                  
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-    line-height: 1.6;
 }
+
 h1, h2, h3 {
     font-family: 'Mistic terror';
     text-align: center;
@@ -35,14 +33,19 @@ header {
 .logo h1 {
     margin: 0;
     font-size: 1.5rem;
-    color:turquoise;
+    color:#333;
     letter-spacing: 5px;
+}
+nav {
+    display: flex;
+    align-items: center;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
+    
 }
 
 nav ul li {
@@ -65,18 +68,28 @@ nav ul li a:hover {
 .hamburger {
     display: none;
     cursor: pointer;
+    padding: 5px 0;
+    
 }
 
 .bar {
     display: block;
     width: 25px;
     height: 3px;
-    margin: 5px auto;
+    margin: 5px 0;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #333;
+    margin-right: 40px;
 }
+
 @media (max-width: 768px) {
+    nav ul {
+        display: none;
+        border: 2px solid #333;
+        
+    }
+
     .nav-links {
         position: absolute;
         left: 100%;
@@ -88,6 +101,8 @@ nav ul li a:hover {
         text-align: center;
         transition: all 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 1rem 0;
+        
     }
 
     .nav-links.active {
@@ -96,6 +111,7 @@ nav ul li a:hover {
 
     .hamburger {
         display: block;
+        
     }
 
     .hamburger.active .bar:nth-child(2) {

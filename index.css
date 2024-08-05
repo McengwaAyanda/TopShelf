@@ -3,9 +3,6 @@ body {
     font-family: 'mistic-terror';                                  
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-    line-height: 1.6;
 }
 
 h1, h2, h3 {
@@ -20,7 +17,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 100;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -37,9 +34,7 @@ header {
     font-size: 1.5rem;
     color: turquoise;
     letter-spacing: 5px;
-}
-
-nav {
+}nav {
     display: flex;
     align-items: center;
 }
@@ -71,7 +66,7 @@ nav ul li a:hover {
     display: none;
     cursor: pointer;
     padding: 5px 0;
-    margin-left: 1rem;
+    
 }
 
 .bar {
@@ -124,6 +119,8 @@ nav ul li a:hover {
     }
 }
 
+
+
 main {
     margin-top: 60px;
 }
@@ -164,7 +161,6 @@ main {
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    font-size: 30px;
 }
 
 .btn {
