@@ -128,17 +128,18 @@ nav ul li a:hover {
 }
 
 .section-content{
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 7.5rem;
+    width: 99%;
+    margin: 7rem 0.5rem 1rem 0.5rem;
     justify-content: space-between;
     font-size: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 .section-content h2, p{
     text-align: center;
     width: 90%;
-    margin-left: 7%;
-    
+    margin-left: 5%;
+
 }
 .section-content img{
     width: 50%;

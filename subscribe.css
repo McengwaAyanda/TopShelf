@@ -6,19 +6,16 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Mistic terror';
+    font-family: 'mistic-terror';
     text-align: center;
     font-size: 35px;
 }
-
 header {
     background-color: #fff;
-    color: #333;
-    padding: 1rem;
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 100;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -26,15 +23,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 15px;
 }
 
 .logo h1 {
     margin: 0;
-    font-size: 1.5rem;
-    color:#333;
-    letter-spacing: 5px;
 }
 nav {
     display: flex;
@@ -45,16 +38,14 @@ nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    
 }
-
 nav ul li {
     margin-left: 1.5rem;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: black;
     font-weight: bold;
     transition: color 0.3s ease, transform 0.3s ease;
     display: inline-block;
@@ -79,7 +70,7 @@ nav ul li a:hover {
     margin: 5px 0;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #333;
+    background-color: black;
     margin-right: 40px;
 }
 
@@ -133,16 +124,16 @@ main {
 
 
 section {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
 .section-content {
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
 }
 
 h2 {
-    color: #333;
+    color: black;
     margin-bottom: 1rem;
     font-size: 2.5rem;
     font-family: 'Mistic terror', mistic terror;
@@ -215,11 +206,15 @@ h2 {
 }
 
 #about-services-container{
-    width: 93%;
-    margin-left: 1rem;
+    width: 95%;
 }
 .about-services {
-    padding: 1rem;
+    padding: 5px;
+}
+.about-services p {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
 }
 
 footer {
