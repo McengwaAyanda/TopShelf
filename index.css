@@ -226,21 +226,24 @@ h2 {
 }
 
 .inclusive-service{
-    width: 100%;
+    width: 85%;
+    margin: 20px 0 0 5%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 36px;
-
+    border: 2px solid black;
+    padding: 0 10px 30px 10px;
+    box-shadow: 0 0 5px 5px black;
 }
 .inclusive-service h2{
     width: 100%;
     text-decoration: underline;
-    font-size: 48px;
+    font-size: 30px;
 }
 .inclusive-service ul li{
     text-align: center;
+    font-size: 20px;
     
 }
 .inclusive-service button{
@@ -261,16 +264,16 @@ h2 {
 
 .monthly-subscription{
     width: 100%;
-    padding: 5px;
+    padding: 5px 5px 50px 0;
     justify-content: space-between;
 }
 .monthly-subscription h2{
     text-align: center;
-    font-size: 48px;
+    font-size: 30px;
 }
 .monthly-subscription li{
     text-align: center;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 

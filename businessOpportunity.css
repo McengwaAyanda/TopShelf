@@ -132,18 +132,18 @@ nav ul li a:hover {
     width: 60%;
     border-radius: 10px;
     margin-left: 20%;
-    
 }
 
 .heading {
-    display: grid; 
+    display: block; 
     
 }
 
 .heading h2{
     margin-left:10%;
     width: 80%;
-    }
+}
+
 .Welcome-msg{
     width: 100%;
     margin-top: 120x;
